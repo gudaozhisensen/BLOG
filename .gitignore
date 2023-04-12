@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+*.log
+.deploy*/
+.vscode/
+node_modules/
+dist/
+npm-debug.log*
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+tests/**/coverage/
+.eslintcache
+debug.log
