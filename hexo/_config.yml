@@ -114,11 +114,8 @@ deploy:
 - type: git
   repository:
     github: git@github.com:gudaozhisensen/gudaosensen.github.io.git
-    coding: git@github.com:gudaozhisensen/gudaosensen.github.io.git
-    #gitee: 
-    #repo: root@118.25.27.52 :/home/git/blog.git
   branch: master
-- type: baidu_url_submitter
+# - type: baidu_url_submitter
 
 live2d:
   enable: true
