@@ -114,7 +114,7 @@ deploy:
 - type: git
   repository:
     github: git@github.com:gudaozhisensen/gudaosensen.github.io.git
-  branch: master
+  branch: deploy
 # - type: baidu_url_submitter
 
 live2d:
