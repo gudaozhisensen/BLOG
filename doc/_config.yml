@@ -4,16 +4,18 @@
 
 # Site
 title: gudaosensen`s Blog
-subtitle: '不会画画的游戏手残不是个合格的前端狗'
+subtitle: '不会画画的游戏手残不是个合格的前端狗1111111111'
 description: ''
 keywords:
-author: John Doe
+author: LX
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+# url: http://example.com
+url: https://gudaozhisensen.github.io/gudaosensen.github.io
+root: /github.com/gudaozhisensen/gudaosensen.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,4 +104,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+- type: git
+  repository:
+    github: git@github.com:gudaozhisensen/gudaosensen.github.io.git
+  branch: deploy
