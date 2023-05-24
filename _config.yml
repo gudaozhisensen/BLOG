@@ -13,9 +13,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://gudaozhisensen.github.io/gudaosensen.github.io
-root: /github.com/gudaozhisensen/gudaosensen.github.io/
-permalink: :title.html
+url: https://gudaozhisensen.github.io/gudaosensen.github.io/
+root: /gudaozhisensen/gudaosensen.github.io
+permalink: :year/:month/:day/:title.html
 permalink_defaults:
 
 # Directory
@@ -113,7 +113,7 @@ theme: matery
 deploy:
 - type: git
   repository:
-    github: git@github.com:gudaozhisensen/gudaosensen.github.io.git
+    github: https://github.com/gudaozhisensen/gudaosensen.github.io.git
   branch: deploy
 # - type: baidu_url_submitter
 
